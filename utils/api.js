@@ -2,7 +2,7 @@ const axios = require("axios");
 const api = {
   getUser(username) {
     var apiURL = "https://api.github.com/users/" + username;
-    axios.get(apiURL)
+    return axios.get(apiURL)
     // .then(function (urlResponse) {
     //   // handle success
     //   console.log(urlResponse.avatar_url)
