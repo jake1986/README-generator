@@ -20,10 +20,17 @@ const questions = [
 
     {
         type: "input",
-        name: "appInfo",
+        name: "title",
         message: "What is the name of your app?"
  
      },
+
+     {
+      type: "input",
+      name: "projectDescription",
+      message: "Provide a description of the application"
+
+   },
 
      {
         type: "input",
@@ -33,35 +40,6 @@ const questions = [
      },
 
      {
-        type: "input",
-        name: "reportIssues",
-        message: "How can you report issues?"
- 
-     },
-
-     {
-        type: "input",
-        name: "devContributions",
-        message: "How can other developers contribute to the app?"
- 
-     },
-
-     
-   {
-      type: "input",
-      name: "projectTitle",
-      message: "What's the title of your project?"
-
-   },
-
-   {
-      type: "input",
-      name: "projectDescription",
-      message: "Provide a description of the application"
-
-   },
-
-   {
       type: "input",
       name: "tableOfContents",
       message: "What is your Table of Contents?"
@@ -70,18 +48,11 @@ const questions = [
 
    {
       type: "input",
-      name: "appUsage",
+      name: "usage",
       message: "How is the app used?"
 
    },
    
-   {
-      type: "input",
-      name: "testRuns",
-      message: "What tests are run to resolve bugs/issues?"
-
-   },
-
    {
       type: "checkbox",
       name: "badgeChoice",
@@ -90,6 +61,22 @@ const questions = [
          "ISC",
          "MIT"
       ]
+
+   },
+
+
+   {
+      type: "input",
+      name: "contributing",
+      message: "How can other developers contribute to the app?"
+
+   },
+
+
+   {
+      type: "input",
+      name: "questions",
+      message: "What tests are run to resolve bugs/issues?"
 
    }
 

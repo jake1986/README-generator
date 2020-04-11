@@ -1,18 +1,36 @@
 function generateMarkdown(data) {
+  const gitTitle = "Title"
+  const gitUserName = "Username"
+  const gitEmail = "User Email"
+  const gitDescription = "Description"
+  const gitInstall = "Install"
+  const gitContents = "Table of Contents"
+  const gitUsage = "Usage";
+  const gitLicense = "License"
+  const gitContributing = "Contributing"
+  const gitQuestions = "Questions"
   return `
-##${data.userEmail}
+
+##${gitUserName}
 ##${data.githubUsername}
-##${data.projectTitle}
-##${data.testRuns}
-##${data.appUsage}
-##${data.testRuns}
-##${data.tableOfContents}
+##${gitEmail}
+##${data.userEmail}
+##${gitTitle}
+##${data.title}
+##${gitDescription}
 ##${data.projectDescription}
-##${data.devContributions}
-##${data.reportIssues}
+##${gitInstall}
 ##${data.appInstall}
-##${data.appInfo}
-## ${data.badgeChoice}
+##${gitContents}
+##${data.tableOfContents}
+##${gitUsage}
+##${data.usage}
+##${gitLicense}
+##${data.badgeChoice}
+##${gitContributing}
+##${data.contributing}
+##${gitQuestions}
+##${data.questions}
 `
 ;
 }
