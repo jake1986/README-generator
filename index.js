@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const api = require("./utils/api");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
+const fs  = require('fs');
 const questions = [
     {
        type: "input",
@@ -8,6 +10,13 @@ const questions = [
        message: "What is your Github username?"
 
     },
+
+    {
+      type: "input",
+      name: "userEmail",
+      message: "What is your e-mail address?"
+
+   },
 
     {
         type: "input",
@@ -37,7 +46,43 @@ const questions = [
  
      },
 
-     {
+     
+   {
+      type: "input",
+      name: "projectTitle",
+      message: "What's the title of your project?"
+
+   },
+
+   {
+      type: "input",
+      name: "projectDescription",
+      message: "Provide a description of the application"
+
+   },
+
+   {
+      type: "input",
+      name: "tableOfContents",
+      message: "What is your Table of Contents?"
+
+   },
+
+   {
+      type: "input",
+      name: "appUsage",
+      message: "How is the app used?"
+
+   },
+   
+   {
+      type: "input",
+      name: "testRuns",
+      message: "What tests are run to resolve bugs/issues?"
+
+   },
+
+   {
       type: "checkbox",
       name: "badgeChoice",
       message: "Which license would you like?",
@@ -46,15 +91,7 @@ const questions = [
          "MIT"
       ]
 
-   },
-
-
-   {
-      type: "input",
-      name: "projectTitle",
-      message: "What's the title of your project?"
-
-   },
+   }
 
 ];
 
@@ -62,16 +99,8 @@ function createBadge(license) {
    return `https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/MIT)`;
 }
 
-function combineData(){
-return `${data.badgeChoice}
-${data.projectTitle}
-`
-
-}
-
-// take return from combineData and put it into generateMarkdown.js, also make sure to write all prompts for questions in index.js, e.g. title, questions, etc.
 function writeToFile(fileName, data) {
-   return fs.writeFileSyn(path.join(__dirname,filename),data)
+   return fs.writeFileSync(path.join(__dirname,fileName),data)
 }
 
 console.log(__dirname)
