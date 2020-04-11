@@ -1,16 +1,5 @@
 function generateMarkdown(data) {
-  const gitTitle = "\033[1mTitle\033[0"
-  const gitUserName = "Username"
-  const gitEmail = "User Email"
-  const gitDescription = "Description"
-  const gitInstall = "Install"
-  const gitContents = "Table of Contents"
-  const gitUsage = "Usage";
-  const gitLicense = "License"
-  const gitContributing = "Contributing"
-  const gitQuestions = "Questions"
-  
-  return `
+ return `
 ## Username
   * ${data.githubUsername}
 ## Email
