@@ -6,16 +6,18 @@
 ## Title
   * README-Generator
 ## Description
-  * The app provides an easy and efficient way for users to create a README file
+  * The application helps users to easy create a README file
 ## Install
   * npm install
 ## Table of Contents
-  * Username E-mail Address Title Installation Table of Contents Usage License Contributing Questions
+  * Username Email Title Description Install Table of Contents Usage License Contributing Tests Questions
 ## Usage
-  * The app is used to create a README file
+  * The app is used to quickly and easily generate a README file
 ## License
   * ISC
 ## Contributions
-  * They can clone a branch onto their own computer to work with the code, e-mail me, or leave a comment in my GitHub profile
+  * Contribution can done through forking or cloning the repo to their GitHub or personal computer in order to make changes, leave comments in my GitHub, or send me a personal e-mail
+## Tests
+  * No current tests
 ## Questions
-  * Test
+  * E-mail me or leave a comment in GitHub

@@ -18,6 +18,8 @@ function generateMarkdown(data) {
   * ${data.badgeChoice}
 ## Contributions
   * ${data.contributing}
+## Tests
+  * ${data.tests}
 ## Questions
   * ${data.questions}
 `

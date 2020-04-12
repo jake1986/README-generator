@@ -75,8 +75,15 @@ const questions = [
 
    {
       type: "input",
-      name: "questions",
+      name: "tests",
       message: "What tests are run to resolve bugs/issues?"
+
+   },
+
+   {
+      type: "input",
+      name: "questions",
+      message: "How can users report issues or ask questions?"
 
    }
 
