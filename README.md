@@ -1,5 +1,5 @@
 
- [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Username
   * jake1986
 ## Email
@@ -15,7 +15,7 @@
 ## Usage
   * k
 ## License
-  * ISC
+  * MIT
 ## Contributions
   * k
 ## Tests
