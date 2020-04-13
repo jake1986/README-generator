@@ -1,8 +1,9 @@
 
+ [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ## Username
-  * k
+  * jake1986
 ## Email
-  * k
+  * jake.rhoads@gmail.com
 ## Title
   * k
 ## Description
@@ -22,4 +23,5 @@
 ## Questions
   * k
 ## Badge
-  * https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/MIT)
+  * 
+ https://img.shields.io/github/license/jake1986/README-generator
