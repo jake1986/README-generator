@@ -1,10 +1,10 @@
 function generateMarkdown(data) {
 var repoName = "README-generator";
-var bashHTTPOne = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+var badgeHTTPOne = `[![License: ${data.badgeChoice}](https://img.shields.io/badge/License-${data.badgeChoice}-blue.svg)](https://opensource.org/licenses/${data.badgeChoice})`;
 var badgeHTTP = `
  https://img.shields.io/github/license/${data.githubUsername}/${repoName}`;
   return `
- ${bashHTTPOne}
+ ${badgeHTTPOne}
 ## Username
   * ${data.githubUsername}
 ## Email
