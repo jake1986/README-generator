@@ -1,23 +1,25 @@
 
 ## Username
-  * jake1986
+  * k
 ## Email
-  * jake.rhoads@gmail.com
+  * k
 ## Title
-  * README-Generator
+  * k
 ## Description
-  * The application helps users to easy create a README file
+  * k
 ## Install
-  * npm install
+  * k
 ## Table of Contents
-  * Username Email Title Description Install Table of Contents Usage License Contributing Tests Questions
+  * k
 ## Usage
-  * The app is used to quickly and easily generate a README file
+  * k
 ## License
   * ISC
 ## Contributions
-  * Contribution can done through forking or cloning the repo to their GitHub or personal computer in order to make changes, leave comments in my GitHub, or send me a personal e-mail
+  * k
 ## Tests
-  * No current tests
+  * k
 ## Questions
-  * E-mail me or leave a comment in GitHub
+  * k
+## Badge
+  * https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/MIT)

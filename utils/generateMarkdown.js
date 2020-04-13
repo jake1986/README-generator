@@ -1,5 +1,7 @@
 function generateMarkdown(data) {
- return `
+ var myBadge;
+ var badgeHTTP = `https://img.shields.io/badge/License-${data.badgeChoice}-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  return `
 ## Username
   * ${data.githubUsername}
 ## Email
@@ -22,6 +24,8 @@ function generateMarkdown(data) {
   * ${data.tests}
 ## Questions
   * ${data.questions}
+## Badge
+  * ${badgeHTTP}
 `
 ;
 }
