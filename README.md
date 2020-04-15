@@ -4,23 +4,23 @@
 ## Title
   * README-Generator
 ## Description
-  * This application allows for users to easily create a README.
+  * The application allows for users to easily create a README.
 ## Install
-  * This can be installed with npm install
+  * The app can be installed with 'npm install'.
 ## Table of Contents
-  * Table of Contents: Badge Title Description Install Table of Contents License Contributions Tests Questions 
+  * Badge Title Description Install Table of Contents Usage License Contributions Tests Questions 
 ## Usage
-  * The app is used to create a README
+  * The app is used to create a README.
 ## License
   * ISC
 ## Contributions
-  * They can clone or fork the repo onto their own computer in order to work with the code.
+  * Developers can clone or fork the repo onto their own computer in order to work with the code. 
 ## Tests
-  * No tests created for this
+  * Run 'npm run test' to check for bugs/issues.
 ## Questions
   * Profile Pic
     - https://avatars2.githubusercontent.com/u/60047023?v=4
-  * They can send me a message to my GitHub username or e-mail address provided below.
+  * For questions, I can be contacted via my e-mail address or messaged at my GitHub username below:
   * Username
     - jake1986
   * E-mail Address
